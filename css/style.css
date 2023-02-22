@@ -144,16 +144,16 @@ body {
 }
 
 #main_box .box-3 .box-3-2 {
-  margin-top: 13%;
+  margin-top: -25%;
 }
 
 #main_box .box-3 .line-v {
-    width: 10px;
-    height: 91%;
-    background-color: #ffffff;
-    position: absolute;
-    bottom: -47%;
-    left: 6%;
+  width: 10px;
+  height: 130%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -74%;
+  left: 6%;
 }
 
 #main_box .box-3-2 h1 {
