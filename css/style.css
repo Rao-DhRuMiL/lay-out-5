@@ -23,20 +23,21 @@ body {
 #main_box .box-1 .box-1-1 {
   background-color: #e5866190;
   width: auto;
-  height: 54%;
+  height: 45%;
   border: 5px solid #ffffff;
   position: absolute;
   right: 3%;
-  top: 8%;
+  top: 10%;
   padding: 10px;
 }
 
 #main_box .box-1 .box-1-1 p {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 40px;
   color: #ffffff;
   font-weight: bold;
   font-family: montserrat;
+  margin: 0px;
 }
 
 /* box-2 css start */
@@ -66,7 +67,7 @@ body {
   font-size: 5rem;
   position: absolute;
   left: 14%;
-  top: 4%;
+  top: -2%;
   z-index: 2;
 }
 
@@ -77,7 +78,7 @@ body {
 }
 
 #main_box .box-3P {
-  background-color: #e5866190;
+  background-color: #e58661ce;
   width: 50%;
   left: 13%;
   z-index: 1;
@@ -85,7 +86,7 @@ body {
 
 #main_box .box-3B {
   width: 50%;
-  background-color: #69938789;
+  background-color: #699387c6;
   right: 0px;
   bottom: 0px;
   z-index: 0;
@@ -105,6 +106,7 @@ body {
   font-family: montserrat;
   width: 80%;
   font-weight: 700;
+  text-align: justify;
 }
 
 #main_box .box-3 .box-3-1P {
@@ -130,6 +132,7 @@ body {
   display: inline-flex;
   list-style: none;
   margin-top: 10%;
+  padding: 0px;
 }
 
 #main_box .box-3 ul li a {
@@ -139,12 +142,12 @@ body {
 
 #main_box .box-3 ul li a i {
   font-size: 50px;
-  margin: 23px;
+  margin: 37px;
   font-weight: 900;
 }
 
 #main_box .box-3 .box-3-2 {
-  margin-top: -25%;
+  margin-top: -3%;
 }
 
 #main_box .box-3 .line-v {
@@ -152,7 +155,7 @@ body {
   height: 130%;
   background-color: #ffffff;
   position: absolute;
-  bottom: -74%;
+  bottom: -87%;
   left: 6%;
 }
 
@@ -163,6 +166,7 @@ body {
   margin-bottom: 0px;
   position: relative;
   right: -13%;
+  margin-top: 0px;
 }
 
 #main_box .box-3 .box-3-2 h2 {
@@ -170,12 +174,14 @@ body {
   text-transform: uppercase;
   margin-left: 13%;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 #main_box .box-3 .box-3-2 h4 {
   font-size: 1.5rem;
   font-weight: 800;
   margin-left: 14%;
+  margin-top: 0px;
 }
 
 /* second box-3 start */
@@ -183,10 +189,10 @@ body {
   font-size: 100px;
   color: #ffffff;
   text-transform: uppercase;
-  margin-top: 8%;
+  margin-top: 33%;
   display: inline-block;
   position: relative;
-  left: 87%;
+  left: 75%;
 }
 
 #main_box .box-3B .line {
@@ -212,6 +218,7 @@ body {
 #main_box .box-4 h1 {
   text-transform: uppercase;
   margin-bottom: 0px;
+  font-size: 20px;
 }
 
 #main_box .box-4 > div {
@@ -236,7 +243,7 @@ body {
 
   #main_box .box-3B h1 {
     font-size: 30px;
-    margin-top: 79%;
+    margin-top: 164%;
   }
 
   #main_box .box-3 .box-3-2 h2 {
@@ -260,7 +267,93 @@ body {
   }
 
   #main_box .box-3B h4 {
+    font-size: 14px;
+    margin-top: 1%;
+}
+  #main_box .box-3B ul {
+    margin-left: 0%;
+}
+
+  #main_box .box-3 .line-v {
+    height: 103%;
+    bottom: -80%;
+    left: -14%;
+  }
+
+  #main_box .box-4 {
+    left: 20%;
+  }
+
+  #main_box .box-2 h2 {
+    font-size: 25px;
+    top: 2%;
+  }
+
+  #main_box .box-3 > h2 {
+    top: 9%;
+  }
+
+  #main_box .box-3 .box-3-1P {
+    top: 14%;
+  }
+
+  #main_box .box-1 .box-1-1 {
+    height: 22%;
+  }
+
+  #main_box .box-1 .box-1-1 p {
+    font-size: 20px;
+  }
+}
+/* @media screen and (max-width: 850px) {
+  #main_box .box-3-2 h1 {
+    font-size: 60px;
+  }
+
+  #main_box .box-3 h3 {
+    font-size: 30px;
+  }
+
+  #main_box .box-3 ul li a i {
+    font-size: 30px;
+    margin: 6px;
+    font-weight: 900;
+  }
+
+  #main_box .box-3B h1 {
+    font-size: 60px;
+    margin-top: 24%;
+  }
+  #main_box .box-3 .box-3-2 {
+    margin-top: 42%;
+}
+
+  #main_box .box-3 .box-3-2 h2 {
+    font-size: 30px;
+  }
+
+  #main_box .box-3 .box-3-2 h4 {
+    font-size: 20px;
+  }
+
+  #main_box .box-4 h1 {
+    font-size: 20px;
+  }
+  #main_box .box-3 .box-3-1B {
+    top: 43%;
+    left: 10%;
+}
+
+  #main_box .box-3 .box-3-1B p {
     font-size: 15px;
+  }
+
+  #main_box .box-4 p {
+    font-size: 16px;
+  }
+
+  #main_box .box-3B h4 {
+    font-size: 22px;
   }
 
   #main_box .box-3 .line-v {
@@ -292,4 +385,4 @@ body {
   #main_box .box-1 .box-1-1 p {
     font-size: 20px;
   }
-}
+} */
